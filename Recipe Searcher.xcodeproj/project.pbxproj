@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3B837A28219C068700B178B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A27219C068700B178B4 /* AppDelegate.m */; };
-		3B837A2B219C068700B178B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A2A219C068700B178B4 /* ViewController.m */; };
+		3B837A2B219C068700B178B4 /* RecipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A2A219C068700B178B4 /* RecipeTableViewController.m */; };
 		3B837A2E219C068700B178B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B837A2C219C068700B178B4 /* Main.storyboard */; };
 		3B837A30219C068D00B178B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B837A2F219C068D00B178B4 /* Assets.xcassets */; };
 		3B837A33219C068D00B178B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B837A31219C068D00B178B4 /* LaunchScreen.storyboard */; };
 		3B837A36219C068D00B178B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A35219C068D00B178B4 /* main.m */; };
 		3B837A40219C068E00B178B4 /* Recipe_SearcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A3F219C068E00B178B4 /* Recipe_SearcherTests.m */; };
 		3B837A4B219C068E00B178B4 /* Recipe_SearcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A4A219C068E00B178B4 /* Recipe_SearcherUITests.m */; };
+		3B837A5B219C290B00B178B4 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A5A219C290B00B178B4 /* WebService.m */; };
+		3B837A5F219C3F7B00B178B4 /* FilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A5E219C3F7B00B178B4 /* FilterTableViewController.m */; };
+		3B837A62219C3FAE00B178B4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B837A61219C3FAE00B178B4 /* DetailViewController.m */; };
+		3B921D3F219EC139007DEAE3 /* RecipeBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B921D3E219EC139007DEAE3 /* RecipeBean.m */; };
+		FFBF2EC021A0810800238C1F /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF2EBF21A0810800238C1F /* MyManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,8 @@
 		3B837A23219C068700B178B4 /* Recipe Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B837A26219C068700B178B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B837A27219C068700B178B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B837A29219C068700B178B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B837A2A219C068700B178B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B837A29219C068700B178B4 /* RecipeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewController.h; sourceTree = "<group>"; };
+		3B837A2A219C068700B178B4 /* RecipeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewController.m; sourceTree = "<group>"; };
 		3B837A2D219C068700B178B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B837A2F219C068D00B178B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B837A32219C068D00B178B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		3B837A46219C068E00B178B4 /* Recipe SearcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe SearcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B837A4A219C068E00B178B4 /* Recipe_SearcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_SearcherUITests.m; sourceTree = "<group>"; };
 		3B837A4C219C068E00B178B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B837A59219C290B00B178B4 /* WebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		3B837A5A219C290B00B178B4 /* WebService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		3B837A5D219C3F7B00B178B4 /* FilterTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterTableViewController.h; sourceTree = "<group>"; };
+		3B837A5E219C3F7B00B178B4 /* FilterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterTableViewController.m; sourceTree = "<group>"; };
+		3B837A60219C3FAE00B178B4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3B837A61219C3FAE00B178B4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3B921D3D219EC139007DEAE3 /* RecipeBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeBean.h; sourceTree = "<group>"; };
+		3B921D3E219EC139007DEAE3 /* RecipeBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeBean.m; sourceTree = "<group>"; };
+		FFBF2EBE21A0810800238C1F /* MyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
+		FFBF2EBF21A0810800238C1F /* MyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +116,12 @@
 		3B837A25219C068700B178B4 /* Recipe Searcher */ = {
 			isa = PBXGroup;
 			children = (
+				FFBF2EBD21A080F600238C1F /* Manager */,
+				3B921D3C219EC0EE007DEAE3 /* Entities */,
+				3B837A5C219C291700B178B4 /* ViewControllers */,
+				3B837A58219C28DD00B178B4 /* WebService */,
 				3B837A26219C068700B178B4 /* AppDelegate.h */,
 				3B837A27219C068700B178B4 /* AppDelegate.m */,
-				3B837A29219C068700B178B4 /* ViewController.h */,
-				3B837A2A219C068700B178B4 /* ViewController.m */,
 				3B837A2C219C068700B178B4 /* Main.storyboard */,
 				3B837A2F219C068D00B178B4 /* Assets.xcassets */,
 				3B837A31219C068D00B178B4 /* LaunchScreen.storyboard */,
@@ -130,6 +147,46 @@
 				3B837A4C219C068E00B178B4 /* Info.plist */,
 			);
 			path = "Recipe SearcherUITests";
+			sourceTree = "<group>";
+		};
+		3B837A58219C28DD00B178B4 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				3B837A59219C290B00B178B4 /* WebService.h */,
+				3B837A5A219C290B00B178B4 /* WebService.m */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		3B837A5C219C291700B178B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B837A29219C068700B178B4 /* RecipeTableViewController.h */,
+				3B837A2A219C068700B178B4 /* RecipeTableViewController.m */,
+				3B837A5D219C3F7B00B178B4 /* FilterTableViewController.h */,
+				3B837A5E219C3F7B00B178B4 /* FilterTableViewController.m */,
+				3B837A60219C3FAE00B178B4 /* DetailViewController.h */,
+				3B837A61219C3FAE00B178B4 /* DetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B921D3C219EC0EE007DEAE3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3B921D3D219EC139007DEAE3 /* RecipeBean.h */,
+				3B921D3E219EC139007DEAE3 /* RecipeBean.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FFBF2EBD21A080F600238C1F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF2EBE21A0810800238C1F /* MyManager.h */,
+				FFBF2EBF21A0810800238C1F /* MyManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B837A2B219C068700B178B4 /* ViewController.m in Sources */,
+				3B837A2B219C068700B178B4 /* RecipeTableViewController.m in Sources */,
+				3B921D3F219EC139007DEAE3 /* RecipeBean.m in Sources */,
+				3B837A5F219C3F7B00B178B4 /* FilterTableViewController.m in Sources */,
 				3B837A36219C068D00B178B4 /* main.m in Sources */,
+				3B837A5B219C290B00B178B4 /* WebService.m in Sources */,
 				3B837A28219C068700B178B4 /* AppDelegate.m in Sources */,
+				3B837A62219C3FAE00B178B4 /* DetailViewController.m in Sources */,
+				FFBF2EC021A0810800238C1F /* MyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,15 +495,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = "Recipe Searcher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gema.toyos.Recipe-Searcher";
+				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.recipesearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,15 +515,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = "Recipe Searcher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gema.toyos.Recipe-Searcher";
+				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.recipesearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -466,6 +536,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = "Recipe SearcherTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +555,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = "Recipe SearcherTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -501,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = "Recipe SearcherUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -518,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = "Recipe SearcherUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
